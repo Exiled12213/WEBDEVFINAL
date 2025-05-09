@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>E-Donate Shop</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-white min-h-screen overflow-x-hidden">
+
+  <!--Top-->
+  <div class="w-full flex items-center justify-between p-4 border-b-2 border-black">
+
+    <!--Logo-->
+    <a href="index.html">
+      <img src="/images/edonateLogo.png" alt="E-Donate Logo" class="h-12">
+    </a>
+
+    <!--Search-->
+    <div class="flex items-center border-2 rounded-full overflow-hidden w-1/2">
+      <input type="text" placeholder="search" class="w-full px-4 py-2 focus:outline-none">
+    </div>
+
+    <!--Profile-->
+    <div class="h-10 w-10 rounded-full bg-black flex items-center justify-center">
+      <div class="h-6 w-6 rounded-full bg-white"></div>
+    </div>
+  </div>
+
+  <!--Main-->
+  <div class="flex">
+
+    <!--Sidebar-->
+    <div class="w-1/4 border-r-2 border-black p-5 h-screen sticky top-0 bg-blue-900 text-white">
+      <ul class="space-y-4">
+        <li><a href="#microcontrollers" class="block border-b pb-2 hover:underline">Microcontrollers and Boards</a></li>
+        <li><a href="#sensors" class="block border-b pb-2 hover:underline">Sensors and Modules</a></li>
+        <li><a href="#wires" class="block border-b pb-2 hover:underline">Wires and Connectors</a></li>
+        <li><a href="#power" class="block border-b pb-2 hover:underline">Power Supply</a></li>
+        <li><a href="#display" class="block border-b pb-2 hover:underline">Display Screens</a></li>
+        <li><a href="#prototyping" class="block border-b pb-2 hover:underline">Prototyping Materials</a></li>
+        <li><a href="#components" class="block border-b pb-2 hover:underline">Electronic Components</a></li>
+        <li><a href="#cables" class="block border-b pb-2 hover:underline">Cables and Adapters</a></li>
+        <li><a href="#projects" class="block border-b pb-2 hover:underline">Past Projects</a></li>
+        <li><a href="#tools" class="block border-b pb-2 hover:underline">Tools and Equipment</a></li>
+      </ul>
+    </div>
+
+    <!--Items Section-->
+    <div class="w-3/4 p-5 flex flex-col space-y-20 bg-blue-200">
+
+      <!--Categories-->
+      <section id="microcontrollers" class="pt-20">
+        <h2 class="text-2xl font-bold mb-4">Microcontrollers and Boards</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div class="border-black p-4 flex flex-col items-center transition-all transform hover:scale-105 hover:shadow-lg">
+            <div class="w-48 h-48 border-2 border-black relative overflow-hidden"></div>
+            <p class="mt-2 font-semibold">Microcontroller Item</p>
+            <p>In Stock: 5</p>
+          </div>
+          <div class="border-black p-4 flex flex-col items-center transition-all transform hover:scale-105 hover:shadow-lg">
+            <div class="w-48 h-48 border-2 border-black relative overflow-hidden"></div>
+            <p class="mt-2 font-semibold">Microcontroller Item</p>
+            <p>In Stock: 5</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="sensors" class="pt-20">
+        <h2 class="text-2xl font-bold mb-4">Sensors and Modules</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div class="border-black p-4 flex flex-col items-center transition-all transform hover:scale-105 hover:shadow-lg">
+            <div class="w-48 h-48 border-2 border-black relative overflow-hidden"></div>
+            <p class="mt-2 font-semibold">Sensor Item</p>
+            <p>In Stock: 8</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="wires" class="pt-20">
+        <h2 class="text-2xl font-bold mb-4">Wires and Connectors</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div class="border-black p-4 flex flex-col items-center transition-all transform hover:scale-105 hover:shadow-lg">
+            <div class="w-48 h-48 border-2 border-black relative overflow-hidden"></div>
+            <p class="mt-2 font-semibold">Wire Item</p>
+            <p>In Stock: 10</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="power" class="pt-20">
+        <h2 class="text-2xl font-bold mb-4">Power Supply</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div class="border-black p-4 flex flex-col items-center transition-all transform hover:scale-105 hover:shadow-lg">
+            <div class="w-48 h-48 border-2 border-black relative overflow-hidden"></div>
+            <p class="mt-2 font-semibold">Power Supply Item</p>
+            <p>In Stock: 2</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="display" class="pt-20">
+        <h2 class="text-2xl font-bold mb-4">Display Screens</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div class="border-black p-4 flex flex-col items-center transition-all transform hover:scale-105 hover:shadow-lg">
+            <div class="w-48 h-48 border-2 border-black relative overflow-hidden"></div>
+            <p class="mt-2 font-semibold">Display Screen Item</p>
+            <p>In Stock: 4</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="prototyping" class="pt-20">
+        <h2 class="text-2xl font-bold mb-4">Prototyping Materials</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div class="border-black p-4 flex flex-col items-center transition-all transform hover:scale-105 hover:shadow-lg">
+            <div class="w-48 h-48 border-2 border-black relative overflow-hidden"></div>
+            <p class="mt-2 font-semibold">Prototyping Item</p>
+            <p>In Stock: 6</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="components" class="pt-20">
+        <h2 class="text-2xl font-bold mb-4">Electronic Components</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div class="border-black p-4 flex flex-col items-center transition-all transform hover:scale-105 hover:shadow-lg">
+            <div class="w-48 h-48 border-2 border-black relative overflow-hidden"></div>
+            <p class="mt-2 font-semibold">Electronic Component</p>
+            <p>In Stock: 9</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="cables" class="pt-20">
+        <h2 class="text-2xl font-bold mb-4">Cables and Adapters</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div class="border-black p-4 flex flex-col items-center transition-all transform hover:scale-105 hover:shadow-lg">
+            <div class="w-48 h-48 border-2 border-black relative overflow-hidden"></div>
+            <p class="mt-2 font-semibold">Cable Item</p>
+            <p>In Stock: 7</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="pt-20">
+        <h2 class="text-2xl font-bold mb-4">Past Projects</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div class="border-black p-4 flex flex-col items-center transition-all transform hover:scale-105 hover:shadow-lg">
+            <div class="w-48 h-48 border-2 border-black relative overflow-hidden"></div>
+            <p class="mt-2 font-semibold">Project Item</p>
+            <p>In Stock: 1</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="tools" class="pt-20">
+        <h2 class="text-2xl font-bold mb-4">Tools and Equipment</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div class="border-black p-4 flex flex-col items-center transition-all transform hover:scale-105 hover:shadow-lg">
+            <div class="w-48 h-48 border-2 border-black relative overflow-hidden"></div>
+            <p class="mt-2 font-semibold">Tool Item</p>
+            <p>In Stock: 3</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
